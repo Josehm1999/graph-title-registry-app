@@ -1,0 +1,18 @@
+type ActiveTitle @entity {
+    id: ID!
+    buyer: Bytes! #Address
+    seller: Bytes!
+    titleAddress: Bytes!
+    tokenId: BigInt!
+    price: BigInt
+}
+
+type TitleLsted @entity {
+    id: ID!
+    seller: Bytes!
+    titleAddress: Bytes!
+    tokenId: BigInt!
+    price: BigInt
+}
+
+
