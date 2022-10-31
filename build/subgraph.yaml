@@ -1,6 +1,6 @@
 specVersion: 0.0.4
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: TitleRegistry
@@ -19,7 +19,7 @@ dataSources:
         - TitleListed
       abis:
         - name: TitleRegistry
-          file: ./abis/TitleRegistry.json
+          file: TitleRegistry/abis/TitleRegistry.json
       eventHandlers:
         - event: TitleBought(indexed address,indexed address,indexed uint256,uint256)
           handler: handleTitleBought
@@ -27,4 +27,4 @@ dataSources:
           handler: handleTitleCanceled
         - event: TitleListed(indexed address,indexed address,indexed uint256,uint256)
           handler: handleTitleListed
-      file: ./src/mappings.ts
+      file: TitleRegistry/TitleRegistry.wasm
