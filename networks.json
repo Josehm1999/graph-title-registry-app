@@ -1,7 +1,7 @@
 {
-  "goerli": {
-    "TitleRegistry": {
-      "address": "0x0a56e7b7a4e811bf62efe3c7498f5894dd33fd65"
+    "mainnet": {
+        "TitleRegistry": {
+            "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+        }
     }
-  }
 }

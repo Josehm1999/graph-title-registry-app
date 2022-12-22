@@ -4,11 +4,10 @@ schema:
 dataSources:
   - kind: ethereum
     name: TitleRegistry
-    network: goerli
+    network: mainnet
     source:
-      address: "0x0a56e7b7a4e811bf62efe3c7498f5894dd33fd65"
+      address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
       abi: TitleRegistry
-      startBlock: 7858460
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
